@@ -1,9 +1,16 @@
 <?php
 
-if (!isset($_GET['controller'])) {
+
 
     require "controller/controller.php";
     require "model/model.php";
+
+if (!isset($_GET['controller'])) {
+
+    $controller = new \App\controller\controller();
+    $controller->accueil();
+
+} else {
 
     if ($_GET['action'] === "tarif") {
 
@@ -15,11 +22,7 @@ if (!isset($_GET['controller'])) {
         $controller = new \App\controller\controller();
         $controller->decouvertedulieu();
 
-    } else {
-
-        $controller = new \App\controller\controller();
-        $controller->accueil();
-
     }
+
 
 }
