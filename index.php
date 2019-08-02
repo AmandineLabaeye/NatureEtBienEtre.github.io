@@ -5,20 +5,22 @@ if (!isset($_GET['controller'])) {
     require "controller/controller.php";
     require "model/model.php";
 
-    if ($_GET['action'] === "tarif") {
+    switch ($_GET['action']) {
 
-        $controller = new \App\controller\controller();
-        $controller->tarif();
+        case "tarif":
+            $controller = new \App\controller\controller();
+            $controller->tarif();
+            break;
 
-    } elseif ($_GET['action'] === "decouverte") {
+        case "decouverte":
+            $controller = new \App\controller\controller();
+            $controller->decouvertedulieu();
+            break;
 
-        $controller = new \App\controller\controller();
-        $controller->decouvertedulieu();
-
-    } else {
-
-        $controller = new \App\controller\controller();
-        $controller->accueil();
+        default:
+            $controller = new \App\controller\controller();
+            $controller->accueil();
+            break;
 
     }
 
