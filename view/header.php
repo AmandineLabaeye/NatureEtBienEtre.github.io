@@ -9,13 +9,16 @@
 </head>
 
 <body>
-<header>
+<header class="Header Space-Between">
 
-    <a href="index.php"> Accueil </a>
+    <img class="Logo" src="public/photo/Logo.png" alt="Logo">
 
-    <a href="index.php?controller=controller&action=tarif"> Tarif </a>
+    <h3><a href="index.php" class="UnderlineNone DarkOliveGreen"> Accueil </a></h3>
 
-    <a href="index.php?controller=controller&action=decouverte"> Decouverte du lieu </a>
+    <h3><a href="index.php?controller=controller&action=tarif" class="UnderlineNone DarkOliveGreen"> Tarif </a></h3>
+
+    <h3><a href="index.php?controller=controller&action=decouverte" class="UnderlineNone DarkOliveGreen"> Decouverte du
+            lieu </a></h3>
 
 </header>
 </body>

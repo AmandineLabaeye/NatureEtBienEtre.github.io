@@ -1,0 +1,92 @@
+body {
+    background-image: url("https://image.freepik.com/vecteurs-libre/fond-degrade-couleur-multi-pastel_1962-503.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial Black";
+}
+
+img {
+    height: 6%;
+    width: 6%;
+}
+
+.Logo {
+    margin-left: -200px;
+}
+
+/*header{
+    background-image: url("https://media.discordapp.net/attachments/605770703257731073/607048334871625748/Photo_1564801987361.png?width=499&height=499");
+    background-repeat: no-repeat;
+    background-size: 5.07%;
+}*/
+
+.Header {
+    background-color: black;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+.Footer {
+    margin: 0;
+    padding: 2%;
+    background-color: black;
+}
+
+.Center {
+    text-align: center;
+}
+
+.Space-Between {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.UnderlineNone {
+    text-decoration: none;
+}
+
+.UnderlineNone:hover {
+    text-decoration: none;
+}
+
+.Underline {
+    text-decoration: underline solid;
+}
+
+.DarkBlue {
+    color: darkblue;
+}
+
+.DarkGoldenRod {
+    color: darkgoldenrod;
+}
+
+.DarkRed {
+    color: darkred;
+}
+
+.DarkMagenta {
+    color: darkmagenta;
+}
+
+.DarkCyan {
+    color: darkcyan;
+}
+
+.SaddleBrown {
+    color: saddlebrown;
+}
+
+.DarkOliveGreen {
+    color: darkolivegreen;
+}
+
+.Img {
+    height: 50%;
+    width: 50%;
+}
