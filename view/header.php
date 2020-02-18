@@ -1,6 +1,3 @@
-<?php
-?>
-
 <head>
     <meta charset="UTF-8">
     <title>Nature et Bien-être</title>

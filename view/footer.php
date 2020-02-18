@@ -1,6 +1,3 @@
-<?php
-?>
-
 <body>
 <footer class="Center">
 
